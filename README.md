@@ -28,14 +28,16 @@ Proyecto InnoSocial: Educación Financiera
 - Inquietudes fiscales, conocer temas SAT
 - Juego lúdico para el móvil/desktop
 - Ahorrar + control gastos + control ingresos
-- Gameizado (Impacto positivo: juego, niveles, logros, etc.)
+- Gameizado (Impacto positivo: juego, niveles, logros, etc.) 
 - Wallet virtual
+- Calendario virtual informativo para llevar un control de lo que se lleva ahorrado al día y la cantidad tentaiva que se llevará ahorrada a fechas semanales si se sigue ahorrando
 
 ##### Imperativos legales:
 - Términos de uso
-- POlíticas de cookies
+- Políticas de cookies
 - Políticas de privacidad
 
 ##### Estructura página:
 - Index / Home
+- Menú hamburguesa
 
