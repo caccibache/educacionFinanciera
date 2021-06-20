@@ -63,7 +63,7 @@ Proyecto InnoSocial: Educación Financiera
 
 # Tareas
 
-- [ ] Tarea 1
+- [x] Tarea 1 (Aritz)
 - [ ] Tarea 2
 - [ ] Tarea 3
 - [ ] Tarea 4
