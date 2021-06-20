@@ -52,3 +52,4 @@ Proyecto InnoSocial: Educación Financiera
 -  Tips & Tricks acerca de como mejorar nuestra salud financiera
   -Seecion de obejtivos.
   -Sección principal de consejos financieron por edad.
+- mapa de avances
