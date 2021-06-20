@@ -40,4 +40,5 @@ Proyecto InnoSocial: Educación Financiera
 ##### Estructura página:
 - Index / Home
 - Menú hamburguesa
-
+- Tips de manejo en la pltaforma 
+-  botones de interacción  para actividades
