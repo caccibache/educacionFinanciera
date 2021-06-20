@@ -60,3 +60,9 @@ Proyecto InnoSocial: Educación Financiera
   -Seecion de obejtivos.
   -Sección principal de consejos financieron por edad.
 - mapa de avances
+
+# Tareas
+[ ] Tarea 1
+[ ] Tarea 2
+[ ] Tarea 3
+[ ] Tarea 4
