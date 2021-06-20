@@ -44,3 +44,4 @@ Proyecto InnoSocial: Educación Financiera
 - Tips de manejo en la pltaforma 
 -  botones de interacción  para actividades
 -  Juego (perfil de usuario)
+-  Ventanas de información sobre cultura financiera 'ventanas emergentes'
