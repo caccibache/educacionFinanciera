@@ -63,12 +63,8 @@ Proyecto InnoSocial: Educación Financiera
 
 # Tareas
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [ ] Tarea 1
+- [ ] Tarea 2
+- [ ] Tarea 3
+- [ ] Tarea 4
+
