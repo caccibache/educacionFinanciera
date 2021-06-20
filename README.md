@@ -41,7 +41,10 @@ Proyecto InnoSocial: Educación Financiera
 ##### Estructura página:
 - Index / Home
 - Menú hamburguesa
-- Tips de manejo en la pltaforma 
+- login de cuenta (opcional para guardar progreso)
+- Tips de manejo en la plataforma 
 -  botones de interacción  para actividades
 -  Juego (perfil de usuario)
 -  Ventanas de información sobre cultura financiera 'ventanas emergentes'
+-  Enlaces a Recursos Adicionales( Publicaciones, Videos, Brochures, Animaciones)
+-  Tips & Tricks acerca de como mejorar nuestra salud financiera
