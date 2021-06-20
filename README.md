@@ -32,6 +32,8 @@ Proyecto InnoSocial: Educación Financiera
 - Gameizado (Impacto positivo: juego, niveles, logros, etc.) (este me late más)
 - Wallet virtual
 - Calendario virtual informativo para llevar un control de lo que se lleva ahorrado al día y la cantidad tentaiva que se llevará ahorrada a fechas semanales si se sigue ahorrando
+  -Apartado Mini Actividades por objetivos todo basado en ahorrar para un fin a corto media o largo plazo. (Que el usuario ingrese un objetivo(Comprar Bicicleta) y la aplicacion arroje cierta informacion de progreso, tips, y ayudas.
+
 
 ##### Imperativos legales:
 - Términos de uso
@@ -48,3 +50,5 @@ Proyecto InnoSocial: Educación Financiera
 -  Ventanas de información sobre cultura financiera 'ventanas emergentes'
 -  Enlaces a Recursos Adicionales( Publicaciones, Videos, Brochures, Animaciones)
 -  Tips & Tricks acerca de como mejorar nuestra salud financiera
+  -Seecion de obejtivos.
+  -Sección principal de consejos financieron por edad.
