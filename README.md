@@ -4,7 +4,7 @@ Proyecto InnoSocial: Educación Financiera
 
 ## Google Forms
 ###### Objetivos
-- lúdico, user friendly, que se adapte a las nuevas tecnologías y a nativos digitales
+- Lúdico, user friendly, que se adapte a las nuevas tecnologías y a nativos digitales
 - Concientizar sobre economía a los niños
 - Promover la buena administración en niños y jóvenes, en aspectos económicos para su futuro.
 - Educar a las personas sobre el manejo financiero desde niños ayudando así a un mejor entendimiento del mundo
@@ -22,13 +22,14 @@ Proyecto InnoSocial: Educación Financiera
 - Juegos donde avance niveles. 
 - Pienso que estaría bien si tuviera apartados donde ingresar la cantidad de dinero que tiene el niño y la aplicación lo instruya con como usarlo, cuanto ahorrar y dar tips acerca del ahorro y las finanzas.
 - Ejercicios a forma de videojuegos
+- A través de un juego pasar niveles para construir tu patrimonio o negocio. 
 
 ## Estructura WebbAPP
 ###### Features:
-- Inquietudes fiscales, conocer temas SAT
+- Inquietudes fiscales, conocer temas SAT / si es para niños lo conocer cosas del SAT aplicaría?
 - Juego lúdico para el móvil/desktop
 - Ahorrar + control gastos + control ingresos
-- Gameizado (Impacto positivo: juego, niveles, logros, etc.) 
+- Gameizado (Impacto positivo: juego, niveles, logros, etc.) (este me late más)
 - Wallet virtual
 - Calendario virtual informativo para llevar un control de lo que se lleva ahorrado al día y la cantidad tentaiva que se llevará ahorrada a fechas semanales si se sigue ahorrando
 
@@ -42,3 +43,4 @@ Proyecto InnoSocial: Educación Financiera
 - Menú hamburguesa
 - Tips de manejo en la pltaforma 
 -  botones de interacción  para actividades
+-  Juego (perfil de usuario)
