@@ -68,3 +68,7 @@ Proyecto InnoSocial: Educación Financiera
 - [ ] Tarea 3
 - [ ] Tarea 4
 
+Una app que ayuda a entrenar personas pequeñas en un mundo en donde es importante aprender de salud financiera. 
+Color: Verde-Amarillo
+Animal: Dinosaurio 
+Objeto físico: Alcancía 
