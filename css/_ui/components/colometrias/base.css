@@ -1,0 +1,20 @@
+.group_ui{
+
+
+    --colorPrincipal:#F7931E;
+    --colorPrincipalOscuro:#A10022;
+    --colorPrincipalClaro:#F944AA;
+
+    --colorSecundario:#D94C00;
+    --colorSecundarioOscuro:#600009;
+    --colorSecundarioClaro:#E5447F;
+
+    --colorTerciario:#B31A31;
+    --colorTerciarioOscuro:#BB4900;
+    --colorTerciarioClaro:#ffBF44;
+
+    --colorInteraccion:#F7931E;
+    --colorInteraccionOscuro:#940903;
+    --colorInteraccionClaro:#ffffcf;
+    --colorInteraccionCOntraste:#FFF;
+}

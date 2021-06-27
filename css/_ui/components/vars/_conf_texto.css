@@ -1,0 +1,25 @@
+:root{
+    /*
+    TAMAÑOS PÁRRAFO
+    */
+    --tamano_referencia_compu:18px; /* Tamaño referencia para computadoras. Rec: 16 a 19px; */
+    --tamano_referencia_mobile:18px; /* Tamaño referencia para tablets y mobile. Rec: 16 a 19px; */
+    --interlineado_parrafo:1.2em; /*Tamaño relativo de la altura del interlineado*/
+    --tacking_parrafo:1.2em; /*Tamaño relativo de la altura del interlineado*/
+    --relacion_p2:0.7em;
+    /*
+    TAMAÑOS TÍTULOS
+    */
+    --tam_titulos_h1:2em; /* Tamaño relativo de los titulos de nivel 1 */
+    --tam_titulos_h2:1.5em; /* Tamaño relativo de los titulos de nivel 2 */
+    --tam_titulos_h3:1.2em; /* Tamaño relativo de los titulos de nivel 3 */
+    --tam_titulos_h4:1.1em; /* Tamaño relativo de los titulos de nivel 4 */
+    --tam_titulos_h5:1em; /* Tamaño relativo de los titulos de nivel 5 */
+    --interlineado_titulos:1.2em; /*Tamaño relativo de la altura del interlineado*/
+    --tacking_tituloso:1.2em; /*Tamaño relativo de la altura del interlineado*/
+
+    /*
+    TIPOGRAFÍAS: SE MODIFICA DESDE tipografias/tipografias.css
+    */
+    
+}

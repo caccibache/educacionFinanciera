@@ -1,0 +1,232 @@
+/*
+    COMPPORTAMIENTO DEFAULT 
+*/
+.swalcontent .frm_input_group{
+	width:calc(100% - 20px);
+}
+.frm_input_group input, .frm_input_group select, .frm_input_group textarea {
+	width: 100%;
+	padding: 5px;
+	border: 1px solid var(--borde);
+	margin-bottom: 7.5px;
+	width: calc(100% - 40px);
+	padding-right: 30px;
+	font-family: "Cuerpo" !important;
+	min-height: 23px;
+	-ms-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	font-size: var(--p-1);
+	color: var(--colorTexto);
+	background-color: var(--colorFondoClaro);
+	border-radius: 5px;
+	margin-bottom: 20px;
+    margin-top: 3px;
+	max-width:calc(100% - 40px)
+}
+.blqFormu .frm_input_group input, .blqFormu .frm_input_group select, .blqFormu .frm_input_group textarea{
+	margin-bottom: 0px;
+}
+.pesta_konfiguraketa .frm_input_group input, .pesta_konfiguraketa .frm_input_group select, .pesta_konfiguraketa .frm_input_group textarea{
+	margin-bottom: 7.5px !important;
+}
+.blqFormu .frm_input_group textarea {
+	min-height: 200px;
+	width: 100%;
+	max-width: 95%;
+	min-width: 95%;
+}
+select {
+	margin: 0;      
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image:
+		linear-gradient(45deg, transparent 50%, gray 50%),
+		linear-gradient(135deg, gray 50%, transparent 50%),
+		linear-gradient(to right, #ccc, #ccc);
+	background-position:
+		calc(100% - 20px) calc(1em + 2px),
+		calc(100% - 15px) calc(1em + 2px),
+		calc(100% - 2.5em) 0.5em;
+	background-size:5px 5px, 5px 5px, 0px 0em;
+	background-repeat: no-repeat;
+}
+  
+select:focus {
+	background-image:
+		linear-gradient(45deg, var(--colorInteraccion) 50%, transparent 50%),
+		linear-gradient(135deg, transparent 50%, var(--colorInteraccion) 50%),
+		linear-gradient(to right, #ccc, #ccc);
+	background-position:
+		calc(100% - 15px) 1em,
+		calc(100% - 20px) 1em,
+		calc(100% - 2.5em) 0.5em;
+	background-size:5px 5px, 5px 5px, 0px 0em;
+	background-repeat: no-repeat;
+	border-color: var(--colorInteraccion);
+	outline: 0;
+}
+
+
+select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #000;
+}
+  
+.frm_input_group input::placeholder, .frm_input_group select::placeholder, .frm_input_group textarea::placeholder{
+    color:var(--colorTextoClaro);
+    font-size:var(--p-2);
+}
+.frm_input_group.requerido label::after{
+  content: "*";
+  color:red;
+}
+.frm_input_group.error input, .frm_input_group.error select, .frm_input_group.error textarea{
+    border:1px solid var(--colorError);
+    background-image: url("../../_assets_ui/error/warning.svg");
+    background-size:1em auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.frm_input_group input:focus, .frm_input_group select:focus, .frm_input_group textarea:focus{
+    border:1px solid var(--colorInteraccion);
+}
+
+.frm_input_group label, .frm_input_group b{
+    font-size:var(--p-2);
+    font-weight: 400;
+}
+.frm_input_group label span{
+	font-weight: 600;
+}
+.frm_input_group label::after{
+    content:":";
+}
+.frm_input_group.required::after::after{
+    content:"*";
+    color:var(--colorError);
+    padding-left:3px;
+}
+.frm_input_group input[type="radio"] {
+	width: 24px;
+	display: inline-block;
+	height: 0.5em;
+	margin-right: 20px;
+	min-height: 0px;
+}
+.frm_input_group input[type="checkbox"] {
+	width: 24px;
+	display: inline-block;
+	height: 0.5em;
+	margin-right: 20px;
+	min-height: 0px;
+}
+.frm_input_group .radio{
+  display: flex;
+}
+/* The slider itself */
+.frm_input_group input[type='range'] {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: calc(100% - 40px);
+    min-height: 3px !important; /* Specified height */
+    height:3px;
+    padding:0px;
+    background: var(--colorFondoClaro);; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.frm_input_group input[type='range']:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.frm_input_group input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: var(--colorInteraccion); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.frm_input_group input[type='range']::-moz-range-thumb {
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: var(--colorInteraccion);
+    cursor: pointer; /* Cursor on hover */
+}
+.frm_input_group .frm_specialinput {
+	display: flex;
+	width: 100%;
+	padding: 5px;
+	padding-right: 5px;
+	border: 1px solid var(--borde);
+	margin-bottom: 7.5px;
+	width: calc(100% - 40px);
+	padding-right: 30px;
+	font-family: "Cuerpo";
+	min-height: 23px;
+	-ms-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	font-size: var(--p-1);
+	color: var(--colorTexto);
+	background-color: var(--colorFondoClaro);
+	border-radius: 3px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+    height:23px;
+}
+.blqFormu .frm_input_group .frm_specialinput{
+	margin-bottom: 0px;
+}
+.pesta_konfiguraketa .frm_input_group .frm_specialinput{
+	margin-bottom: 7.5px !important;
+}
+.pesta_konfiguraketa .frm_input_group .frm_specialinput span{
+	text-overflow: ellipsis;
+	overflow: hidden; 
+	width: 160px; 
+	height: 1.2em; 
+	white-space: nowrap;
+}
+.frm_input_group .frm_specialinput .icnprv {
+	background-color: var(--colorFondo);
+	margin: -5px;
+	width: 40px;
+	text-align: center;
+	border-right: 1px solid var(--borde);
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius:3px 0px 0px 3px;
+}
+.frm_input_group .frm_specialinput .icnprv.autowidth{
+	width:auto;
+	padding-left:10px;
+	padding-right:10px;
+}
+.frm_input_group .frm_specialinput input, .frm_input_group .frm_specialinput select{
+    padding: 0px;
+    border: 0px;
+    margin-top: -5px;
+    height: 33px;
+}
+.frm_input_group .filatblformu{
+    border-bottom: 1px solid var(--borde);
+    padding: 5px 10px 5px 10px;
+}
+select, option {
+	font: -moz-pull-down-menu;
+}

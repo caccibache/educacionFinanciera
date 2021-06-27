@@ -1,0 +1,55 @@
+.txt_claro{
+
+}
+.txt_oscuro{
+    
+}
+.txt_claro{
+    
+}
+.fnd_claro{
+
+}
+body .fnd_oscuro{
+    background-color:var(--colorSecundario) !important;
+    color:#f0f0f0;
+}
+.fnd_intercalado{
+    background-color: var(--colorFondo);
+}
+/*
+    CONFIGURACIÓN SOBRE SECCIÓN CLARA
+*/
+.txt_claro h1, .txt_claro h2, .txt_claro h3, .txt_claro h4 {
+
+}
+.txt_claro p{
+
+}
+.txt_claro .boton{
+
+}
+/*
+    CONFIGURACIÓN SOBRE SECCIÓN INTERCALADA
+*/
+.fnd_intercalado h1, .fnd_intercalado h2, .fnd_intercalado h3, .fnd_intercalado h4 {
+
+}
+.fnd_intercalado p{
+
+}
+.fnd_intercalado .boton{
+
+}
+/*
+    CONFIGURACIÓN SOBRE SECCIÓN OSCURA
+*/
+.fnd_oscuro h1, .fnd_oscuro h2, .fnd_oscuro h3, .fnd_oscuro h4 {
+    color:white;
+}
+.fnd_oscuro p{
+    color:#f0f0f0;
+}
+.fnd_oscuro .boton{
+
+}

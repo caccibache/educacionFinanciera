@@ -1,0 +1,186 @@
+footer{
+   
+   font-size:var(--p);
+}
+footer h2{
+    font-size:calc(var(--p-1) * 1.2);
+    margin-bottom: 15px;;
+    margin-top:0px;
+}
+footer .footer_sup .row.vcentr *{
+    margin-top:0px !important;
+    margin-bottom:0px !important;
+}
+footer .footer_sup{
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: white;
+}
+footer .footer_inf{
+    background-color: var(--colorSecundario);
+    padding-top:40px;
+    padding-bottom:40px;
+}
+footer .footer_inf .barInf{
+    height: 71px;
+    margin-bottom: 40px;
+    background-image: url("../assets/isoblanco.png");
+    background-position: center top;
+    background-size: 50px 50px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid white;
+    background-repeat: no-repeat;
+}
+footer p{
+    font-size:var(--p-2);
+}
+footer a:hover{
+    color:var(--colorInteraccion) !important
+}
+footer a:hover > p{
+    color:var(--colorInteraccion) !important
+}
+footer > div{
+    padding-left:var(--col-1);
+    padding-right:var(--col-1);
+}
+footer .bannerPie{
+
+}
+footer .bannerPie input{
+    background-color: white;
+    border:1px solid var(--borde);
+    border-radius: 10px;
+    padding:10px;
+    margin-top:20px;
+    width:100%
+}
+
+footer .blogspace{
+    margin-bottom: 50px;
+}
+footer .slide_footer{
+    padding-left:0px;
+    padding-right:0px;
+}
+footer .slide_footer_int{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .slide_footer_int .footer_blog{ 
+    width:23%;
+    cursor: pointer;
+}
+footer .slide_footer_int .footer_blog .footer_blog_img{
+    height:120px;
+    background-color:#ccc;
+    background-size: 100% auto;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    background-position: center;
+    transition:.5s;
+}
+footer .slide_footer_int .footer_blog:hover .footer_blog_img{
+
+    background-size: 110% auto;
+
+}
+footer .rrss img{
+    width:30px;
+    margin-right:15px;
+    margin-top:20px;
+    color:white;
+    filter: grayscale(100%) brightness(300%);
+    cursor: pointer;
+}
+footer .rrss img:hover{
+    filter: brightness(100%) grayscale(0%);
+}
+footer .footerLogo img{
+    height:13px;
+    filter: grayscale(100%) brightness(300%);
+    margin-right: 10px;
+}
+footer a.footerLogo:hover img{
+
+    filter: grayscale(0%) brightness(100%);
+ 
+}
+@media(max-width:900px){
+    footer .footer_sup .encab{
+        margin-bottom: 50px;
+    }
+    footer .ftcentra{
+        text-align: center !important;
+        width:50%;
+    }
+    footer .footerZendh{        
+        margin-bottom: 50px;
+        width:100%;
+    }
+    footer .bvpie{
+        margin-top:50px;
+        width:100%;
+    }
+    footer .slide_footer_int .row{
+        display: block;
+    }
+    footer .slide_footer_int .footer_blog{
+        width: 100%;
+    }
+    footer .slide_footer_int .footer_blog a{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    footer .slide_footer_int .footer_blog .footer_blog_img{
+        margin:0px;
+        width:80px;
+        height:80px;
+        background-size: cover;
+    }
+    footer .footer_blog .footer_blog_txt{
+        width:calc(100% - 120px);
+    }
+    footer .slide_footer_int .footer_blog:hover .footer_blog_img{
+        background-size: cover;
+    }
+    footer .footer_sup{
+        padding-bottom:30px;
+    }
+}
+@media(max-width:550px){
+    footer .slide_footer_int .footer_blog{
+        padding-bottom: 20px;
+    }
+    footer .slide_footer_int .footer_blog h4{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    footer .slide_footer_int .footer_blog a{
+        display:block;
+        width:100%;
+    }
+    footer .ftcentra{
+        text-align: center !important;
+        width:100%;
+    }
+    footer .slide_footer_int .footer_blog .footer_blog_img{
+        width:100%;
+        height:100px;
+        background-size: cover;
+    }
+    footer .footer_blog .footer_blog_txt{
+        width:100%;
+    }
+    footer .slide_footer_int .footer_blog:hover .footer_blog_img{
+        background-size: cover;
+    }
+    footer .footer_sup a{
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+/******************************
+*	Reset
+******************************/
+*{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Cuerpo', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a, a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: inherit;
+
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}

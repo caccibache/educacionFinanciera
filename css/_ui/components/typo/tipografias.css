@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Titulos';
+    src: url('WorkSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Titulos1';
+    src: url('WorkSans-Light.ttf');
+}
+@font-face {
+    font-family: 'Cuerpo';
+    src: url('WorkSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Titulos2';
+    src: url('WorkSans-Medium.ttf');
+}
+@font-face{
+    font-family:"Font Awesome 6 Pro";
+    font-style:normal;
+    font-weight:300;
+    font-display:block;
+    src:url(fa-light-300.woff2) format("woff2"),url(fa-light-300.woff) format("woff"),url(fa-light-300.ttf) format("truetype")
+}
+.fa-light,.fal{font-weight:300}
+@font-face{font-family:"Font Awesome 6 Pro";
+    font-style:normal;
+    font-weight:400;
+    font-display:block;
+    src:url(fa-regular-400.woff2) format("woff2"),url(fa-regular-400.woff) format("woff"),url(fa-regular-400.ttf) format("truetype")
+}
+.fa-light,.fa-regular,.fal,.far{font-family:"Font Awesome 6 Pro"}
+.fa-regular,.far{
+    font-weight:400
+}
+@font-face{
+    font-family:"Font Awesome 6 Pro";
+    font-style:normal;
+    font-weight:900;
+    font-display:block;
+    src:url(fa-solid-900.woff2) format("woff2"),url(fa-solid-900.woff) format("woff"),url(fa-solid-900.ttf) format("truetype")
+}
+.fa-solid,.fas{font-weight:900}
+@font-face{
+    font-family:"Font Awesome 6 Pro";
+    font-style:normal;font-weight:100;
+    font-display:block;
+    src:url(fa-thin-100.woff2) format("woff2"),url(fa-thin-100.woff) format("woff"),url(fa-thin-100.ttf) format("truetype")
+}
+.fa-solid,.fa-thin,.fas,.fat{
+    font-family:"Font Awesome 6 Pro"}.fa-thin,.fat{font-weight:100
+}
+@font-face{
+    font-family:"Font Awesome 6 Duotone";
+    font-style:normal;font-weight:900;
+    font-display:block;src:url(fa-duotone-900.woff2) format("woff2"),url(fa-duotone-900.woff) format("woff"),url(fa-duotone-900.ttf) format("truetype")}
+    .fa-duotone,.fad{position:relative;font-family:"Font Awesome 6 Duotone";font-weight:900}
+
+@font-face{
+    font-family:"Font Awesome 6 Brands";font-style:normal;
+    font-weight:400;font-display:block;src:url(fa-brands-400.woff2) format("woff2"),url(fa-brands-400.woff) format("woff"),url(fa-brands-400.ttf) format("truetype")
+}
+.fa-brands,.fab{font-family:"Font Awesome 6 Brands";font-weight:400}
+@font-face {
+    font-family: 'Font Awesome 6 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("fa-regular-400.woff2") format("woff2"), url("fa-regular-400.woff") format("woff"), url("fa-regular-400.ttf") format("truetype"); }
+  
+  .far,
+  .fa-regular {
+    font-family: 'Font Awesome 6 Pro';
+    font-weight: 400; }

@@ -1,0 +1,24 @@
+/* CONFIGURACIONES */
+@import 'elements/_reset.css';
+
+@import 'colometrias/base.css';
+
+
+
+@import 'vars/_conf_general.css';
+@import 'vars/_conf_secciones.css';
+@import 'vars/_conf_texto.css';
+@import 'vars/_logos.css';
+@import 'vars/_conf_formularios.css';
+
+@import 'grid/_grid.css';
+@import 'elements/callbacks.css';
+@import 'elements/general.css';
+@import 'elements/color.css';
+@import 'elements/formularios.css';
+@import 'elements/secciones.css';
+@import 'elements/interactuacion.css';
+@import 'elements/texto.css';
+@import 'elements/tablas.css';
+
+@import 'typo/tipografias.css';

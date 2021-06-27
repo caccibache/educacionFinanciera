@@ -1,0 +1,47 @@
+body{
+    font-family: 'Cuerpo';
+    background-color: var(--colorFondo);
+    padding:0px;
+    margin:0px;
+    font-size:var(--p-1);
+    color:var(--colorTexto);
+    overflow-x: hidden;
+}
+@media(max-width:850px){
+    body{
+        background-color: var(--colorFondo);
+        padding:0px;
+        margin:0px;
+        font-size:var(--tamano_referencia_mobile);
+    }
+}
+.logo{
+    width:calc(100% - 40px);
+    height:60px;
+    margin:20px;
+    background-image:url("../../../assets/logo_claro.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo.blanco{
+    background-image:url("../../../assets/logo_blanco.png");
+}
+.logo_en_Oscuro{
+    
+}
+.centarTexto{
+    text-align: center;
+}
+.centarCaja{
+    margin:auto;
+}
+.centradoTotal{
+    justify-content:center;
+    align-items:center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bltkfrm{
+    padding:5px;
+}

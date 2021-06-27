@@ -1,0 +1,16 @@
+section{
+    --section-pad-sup:120px; /*Desktop: Margen interior superior default de las secciones*/
+    --section-pad-inf:120px; /*Desktop: Margen interior inferior default de las secciones*/
+    --section-pad-der:var(--col-1); /*Desktop: Margen interior superior default de las secciones*/
+    --section-pad-izq:var(--col-1); /*Desktop: Margen interior inferior default de las secciones*/
+
+    --section-pad-sup_mob:40px; /*MObile: Margen interior superior default de las secciones*/
+    --section-pad-inf_mob:40px; /*MObile:  Margen interior inferior default de las secciones*/
+
+    --section-pad-der_mob:20px; /*MObile: Margen interior superior default de las secciones*/
+    --section-pad-izq_mob:20px; /*MObile:  Margen interior inferior default de las secciones*/
+
+    --color_seccion_oscura: var(--oscuro);/*color de la seccion oscura*/
+    --color_seccion_intercalado: var(--intercalado);/*color de la seccion intercalada semioscura*/
+    --color_seccion_claro: var(--claro);/*color de la seccion clara*/
+}

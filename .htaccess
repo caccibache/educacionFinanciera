@@ -1,0 +1,25 @@
+
+
+RewriteEngine On
+
+#servicios
+RewriteRule ^servicios/([^/]*)/([^/]*)$ /index.php?link=servicios&pag=$1&srv=$2 [L]
+
+#legal
+RewriteRule ^legal/([^/]*)$ /index.php?link=legal&pag=$1 [L]
+
+#articulo
+RewriteRule ^articulo/([^/]*)$ /index.php?link=articulo&pag=$1 [L]
+
+#blog
+RewriteRule ^blog/tags/([^/]*)/([^/]*)$ /index.php?link=blog&tag=$1&pag=$2 [L]
+#blog
+RewriteRule ^blog/tags/([^/]*)$ /index.php?link=blog&tag=$1 [L]
+#blog (paginado)
+RewriteRule ^blog/([^/]*)$ /index.php?link=blog&tag=$1 [L]
+
+#articulo
+
+RewriteRule ^([a-zA-Z]*)/$ /index.php?link=$1
+
+RewriteRule ^([a-zA-Z]*)$ /index.php?link=$1

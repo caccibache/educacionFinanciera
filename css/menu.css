@@ -1,0 +1,248 @@
+header{
+    position:fixed;
+    z-index: 999;
+    width: calc(100% - var(--col-2));
+    display: flex;
+    justify-content: space-between;
+    left:var(--col-1);
+    right:var(--col-1);
+    align-items: center;
+    flex-wrap: wrap;
+    top:40px;   
+    color:white;
+    padding:20px;
+    border-radius:30px;
+    height:70px;
+}
+#pag_home header{
+    color:var(--colorTexto);
+}
+header.header_Flotante {
+    background-color: rgba(255,255,255,1);
+
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    padding-top:1px;
+    color:var(--colorTexto);
+}
+header .logo{
+    width:200px;
+    height: auto;
+    margin: 0px;
+}
+header .logo img{
+    height:60px;
+    margin-top: 5px;
+}
+header menu{
+    display: flex;
+    justify-content: flex-end;
+    width:calc(100% - 200px)
+}
+header menu > a > div{
+    padding:10px;
+    margin-left:50px;
+    cursor: pointer;
+    font-size:var(--h3);
+    text-align: center;
+    width:120px;
+    border-radius: 10px;
+    margin-top:13px;
+}
+header menu > a > div:hover{
+    color:var(--colorInteraccion);
+}
+header.header_Flotante menu > a > div:hover{
+    color:var(--colorTexto);
+    opacity:0.8;
+}
+header menu > a > div.selected{
+    color: var(--colorTerciario);    
+}
+header.header_Flotante menu > a > div.selected{
+    color: var(--colorPrincipal);    
+}
+header menu > a > div.ageda{
+    background-color: var(--colorPrincipal);
+    margin-top: -1px;
+    height: 70px;
+    margin-bottom: 0px;
+    position: relative;
+    margin-right: -20px;
+    color: white;
+    padding-top: 24px;  
+    border-radius: 30px;
+    width:180px;
+    transition:.3s;
+}
+header.header_Flotante menu > a > div.ageda{
+    border-radius: 0px 30px 30px 0px;
+}
+header menu > a > div.ageda img{
+    height:20px;
+    margin-right:10px;
+}
+header menu > a > div.ageda:hover{
+    background-color:var(--colorInteraccion);
+}
+header  #menisotp{
+    display: none;
+}
+#menuMobile{
+    display: none;
+    position: fixed;
+}
+#MenuMobDespl, #layerMenuMob{
+    display: none;
+}
+/*
+    LOGOS
+*/
+header #logosFlot{
+    display: none;
+}
+header #logosNoFlot{
+    display: block;
+}
+header.header_Flotante #logosFlot{
+    
+    display: block;
+}
+header.header_Flotante #logosNoFlot{
+    display: none;
+}
+#pag_home header #logosFlot{
+    display: block;
+}
+#pag_home  header #logosNoFlot{
+    display: none;
+}
+#pag_home  header.header_Flotante #logosFlot{
+    display: block;
+}
+#pag_home  header.header_Flotante #logosNoFlot{
+    display: none;
+}
+/*
+    FIN LOGOS
+*/
+@media(max-width:1500px){
+    header menu > a > div{
+        margin-left: 30px;
+    }
+}
+@media(max-width:1300px){
+    header menu > a > div{
+        width:110px;
+    }
+}
+@media(max-width:1250px){
+    header menu > a > div{
+        width:auto;
+    }
+}
+@media(max-width:1200px){
+    header menu > a > div{
+        margin-left: 20px;
+    }
+}
+@media(max-width:1120px){
+    header menu .ageda span{
+        display: none;
+    }
+    header menu > a > div.ageda{
+        width:80px;
+    }
+}
+@media(max-width:1000px){
+    header  #menisolog{
+        display: none;
+    }
+    header  #menisotp{
+        display: block;
+    }
+
+}
+@media(max-width:900px){
+    header#barraMenu{
+        display: none;
+    }
+    #menuMobile{
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        background-color: rgba(255,255,255,1);
+        padding: 10px;
+        border-radius: 20px;
+        height: 50px;
+        -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+        -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+        box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+        right: 20px;
+        top: 20px;
+        width: 150px;
+        z-index: 500;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 999;
+    }
+    #menuMobile .hamburguesa{
+        width:50px;
+    }
+    #menuMobile .labtag{
+        width:80px;
+        text-align: right;
+        font-size: var(--h3);
+    }
+    #menuMobile .hamburguesa div{
+        width:50px;
+        height:5px;
+        background-color:var(--colorPrincipal);
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #menuMobile:hover{
+        background-color:var(--colorInteraccion)
+    }
+    #MenuMobDespl, #layerMenuMob{
+        display: none;
+        position: fixed;
+        height:100vh;
+        width:100vw;
+        top:0px;
+        left:0px;
+        z-index:1050;
+    }
+    #layerMenuMob{
+        background-color: var(--colorSecundario);
+        opacity:0.75;
+        z-index:1050;
+    }
+    #MenuMobDespl{
+        left:auto;
+        right: 0px;
+        width:300px;
+        background-color: white;
+        z-index: 1200;
+        padding:20px;
+    }
+    #MenuMobDespl .logomb{
+        text-align: center;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    #MenuMobDespl img{
+        width:250px;
+    }
+    #MenuMobDespl .menuMobint{
+        margin-top: 20px;
+
+    }
+    #MenuMobDespl .menuMobint .menuopt{
+        font-size:var(--h3);
+        margin-bottom: 20px;;
+    }
+}
+

@@ -1,0 +1,25 @@
+.tabla{
+    border:1px solid #ccc;
+    background-color: var(--claro);
+    width:100%;
+}
+.tabla .encabezado{
+    border-bottom: 2px solid var(--colorPrincipal);
+    font-size:var(--p-1);
+    color:var(--oscuro);
+    display: flex;    
+    background-color: var(--borde);
+    padding:7.5px 5px 7.5px 5px;
+}
+.tabla .encabezado div{
+    padding:10px;
+}
+.tabla .renglon{
+    display: flex;
+    padding:5px;
+}
+.tabla .renglon > div{
+    font-size:var(--p-2);
+}
+.tabla .renglon:nth-child(even) { background: var(--colorFondoClaro) }
+.tabla .renglon:nth-child(odd) { background: var(--colorFondo) }

@@ -1,0 +1,10 @@
+:root{
+    --isotipo_default:''; /*Ruta del isotipo*/
+    --logo_default:''; /*Ruta del logo*/
+
+    --isotipo_sobre_blanco:''; /*Ruta del isotipo sobre blanco*/
+    --isotipo_sobre_oscuro:''; /*Ruta del isotipo soobre oscuro*/
+
+    --logo_sobre_blanco:''; /*Ruta del logo sobre blanco*/
+    --logo_sobre_oscuro:''; /*Ruta del soobre oscuro*/
+}

@@ -1,0 +1,46 @@
+:root {
+
+    --colorTexto:#4d4d4d;
+    --colorTextoOscuro:#111;
+    --colorTextoClaro:#888;
+    
+    --colorFondo:#f6f6f6;
+    --colorFondoOscuro:#333;
+    --colorFondoClaro:#fff;
+
+    --borde:#ccc;    
+    --bordeOscuro:#333;
+    --bordeClaro:#DDD;
+
+    --colorError:#e03b24;
+    --colorErrorClaro:#eb6060;
+    --colorErrorOscuro:#a02500;
+
+    --colorSucess:#64a338;
+    --colorSucessClaro:#7cd992;
+    --colorSucessOscuro:#407005;
+
+    --colorWarning:#ffcc00;
+    --colorWarningClaro:#f7e463;
+    --colorWarningOscuro:#d26000;
+
+    --colorInfo:#3865a3;
+    --colorInfoClaro:#87a2c7;
+    --colorInfoOscuro:#031044;
+}
+body.ilunera{
+    --colorFondo:#171e24;
+}
+body.ilunera #cont-prin{
+    --colorTexto:#F0F0F0;
+    --colorTextoOscuro:#FFF;
+    --colorTextoClaro:#DDD;
+    
+    --colorFondo:#171e24;
+    --colorFondoOscuro:#333;
+    --colorFondoClaro:#1c2a35;
+
+    --borde:#666;    
+    --bordeOscuro:#666;
+    --bordeClaro:#666;
+}
