@@ -1,14 +1,13 @@
 # educacionFinanciera
 Proyecto InnoSocial: Educación Financiera
 ## Propuesta nombre:
-1.money inc 
-2.dino inc
+1. money inc
+2. dino inc
 3. innomoney
-4. save dino
-5. capital dino
-6. si ahorro
-7. moneybag
-8. educash
+4. 
+5.
+6.
+7.
 
 ## Google Forms
 ###### Objetivos
@@ -69,3 +68,7 @@ Proyecto InnoSocial: Educación Financiera
 - [ ] Tarea 3
 - [ ] Tarea 4
 
+Una app que ayuda a entrenar personas pequeñas en un mundo en donde es importante aprender de salud financiera. 
+Color: Verde-Amarillo
+Animal: Dinosaurio 
+Objeto físico: Alcancía 
