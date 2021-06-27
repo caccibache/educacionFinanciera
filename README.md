@@ -1,8 +1,8 @@
 # educacionFinanciera
 Proyecto InnoSocial: Educación Financiera
 ## Propuesta nombre:
-1. 
-2.
+1. money inc
+2. 
 3.
 4.
 5.
