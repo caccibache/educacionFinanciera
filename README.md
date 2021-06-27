@@ -4,10 +4,10 @@ Proyecto InnoSocial: Educación Financiera
 1.money inc 
 2.dino inc
 3. innomoney
-4.
-5.
-6.
-7.
+4. save dino
+5. capital dino
+6. si ahorro
+7. moneybag
 
 ## Google Forms
 ###### Objetivos
